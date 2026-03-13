@@ -1,5 +1,5 @@
 
-        // Smooth scrolling
+        // Smooth scrolling //
         document.querySelectorAll('a[href"="#"]').forEach                             (anchor =>  {
             anchor.addEventlistener('click' , function (e) {
                 e.preventDefault();
