@@ -16,7 +16,7 @@ body {
     background-color: var(--dark-bg);
     color: var(--text);
     line-height: 1.6;
-    overflow: hidden;
+    overflow: auto;
 }
 
 /* Navigation */
@@ -110,7 +110,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 .hero h1 {
     font-size: 4rem;
     margin-bottom: 1.5rem;
-    background: linear-gradient(45deg, var(--accent)30%, #ffff 70%);
+    background: linear-gradient(45deg, var(--accent)30%, #ffffff 70%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -150,7 +150,7 @@ border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 .skills-card {
     padding: 2rem;
     border-radius: 15px;
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255,255,255,0.05);
     transition: all 0.3s ease;
     border: 1px solid rgba(255,255,255,0.1);
     backdrop-filter: blur(5px);
@@ -191,10 +191,10 @@ footer {
 
 .social-links a:hover {
     color: var(--accent);
-    transform: translate(-3px);
+    transform: translateY(-3px);
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px)  {
     .hero {
         flex-direction: column;
         text-align: center;
